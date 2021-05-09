@@ -67,7 +67,8 @@ La función **blinkLed(freq)** se encarga de encender y apagar el led acorde a u
       delay(freq);  
     }    
 ```      
-A continuación, se muestra el resultado final mediante un gif animado: 
+A continuación, se muestra el resultado final mediante un gif animado:
+<p align="center">
 Salida del monitor serie |
 --------------|
 <img src="/images/blink-led-serial-demo.gif" alt="Salida del monitor serie"></img> | 
@@ -75,6 +76,7 @@ Salida del monitor serie |
 Prueba del código en vivo |
 --------------|
 <img src="https://media.giphy.com/media/xx9DkkDZIqvtpPQFNa/giphy.gif" alt="Prueba del código en vivo"></img> |
+</p>
 
 ## Descarga y prueba
 Para poder probar correctamente el código, descargar los ficheros (el .zip del repositorio) y en la carpeta llamada BlinkLed se encuentran los archivos de la aplicación listos para probar y ejecutar. El archivo "README.md" y aquellos fuera de la carpeta del proyecto (BlinkLed), son opcionales, si se descargan no deberían influir en el funcionamiento del código ya que, son usados para darle formato a la presentación y explicación del repositorio en la plataforma GitHub.
