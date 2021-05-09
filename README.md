@@ -33,14 +33,14 @@ A continuación se describe el trabajo realizado. Se crean e inicializan las var
     float senFreq = 0;
 ```
 <br>En la función **setup()** se habilita el monitor serie y se establece el led incorporado en el Arduino como salida.
-    
+```C
     void setup() {  
       Serial.begin(9600);
       pinMode(LED_BUILTIN, OUTPUT);
     }
-
+```
 <br>En la función **loop()** se calcula el seno de la variable *value* y se actualiza la variable. A continuación, se comprueba que esta variable esté en el rango -PI/2 y PI/2. Se cambia la frecuencia del parpadeo según el valor del seno calculado llamando la función **blinkLed()**.
-
+```C
     void loop() {
       senFreq = sin(value);
       value += jump;
@@ -57,16 +57,16 @@ A continuación se describe el trabajo realizado. Se crean e inicializan las var
         blinkLed(freqNormal);
       }
     }
-    
+```    
 <br>La función **blinkLed(freq)** se encarga de encender y apagar el led acorde a una frecuencia que es pasada como parámetro. 
-      
+```C      
     void blinkLed (int freq) {
       digitalWrite(LED_BUILTIN, HIGH);  
       delay(freq);
       digitalWrite(LED_BUILTIN, LOW);    
       delay(freq);  
     }    
-      
+```      
 <br>A continuación, se muestra el resultado final mediante un gif animado: 
 
 | ![](/My-Processing-Book/images/blink_led/blink-led-serial-demo.gif "Salida del monitor serie") |
@@ -83,9 +83,6 @@ Para descargar el código en Arduino, acceda a: <a href="https://downgit.github.
 ---
 
 ## Referencias
-
-[Guión de prácticas](https://ncvt-aep.ulpgc.es/cv/ulpgctp21/pluginfile.php/412240/mod_resource/content/37/CIU_Pr_cticas.pdf)
-
-[Página de Arduino](https://www.arduino.cc/)
-
-[Creación del enlace de descarga](https://downgit.github.io/#/home)
+Para la realización de este proyecto, se han consultado y/o utilizado los siguientes recursos:
+* Guión de prácticas de la asignatura CIU
+* <a href="https://www.arduino.cc/">Página oficial de Arduino</a>
