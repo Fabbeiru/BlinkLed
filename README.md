@@ -21,7 +21,7 @@ El diseño y configuración ha sido el que se puede observar en la siguiente fig
 ## Código implementado
 
 A continuación se describe el trabajo realizado. Se crean e inicializan las variables necesarias, como la frequencia mínima, máxima y normal la cual se establecen a 600, 60 y 250 respectivamente. Se inicializan las variables *jump* (incremento), *value* (valor en radianes del seno con rango entre -PI/2 y PI/2) y *senFreq* (resultado del seno con rango entre -1 y 1). 
-
+```arduino
     // En milisegundos
     const float threshold = 0.75;
     const int freqMax = 60;
@@ -31,7 +31,7 @@ A continuación se describe el trabajo realizado. Se crean e inicializan las var
     float jump = 0.1;
     float value = 0;
     float senFreq = 0;
-
+```
 <br>En la función **setup()** se habilita el monitor serie y se establece el led incorporado en el Arduino como salida.
     
     void setup() {  
