@@ -16,7 +16,7 @@ Se produce una señal senoidal que define la envolvente, de manera que cuando di
 
 El diseño y configuración ha sido el que se puede observar en la siguiente figura. Se adjunta el <a href=" https://www.tinkercad.com/things/cknacAsoMJE">enlace de la configuración en Tinkercad</a> para visualizar la simulación y modificar el código si se desea.
 
-![](/images/blink-led-tinkercad-demo.gif "Diseño, configuración y simulación del Arduino en Tinkercad")
+<p align="center"><img src="/images/blink-led-tinkercad-demo.gif" alt="Diseño, configuración y simulación del Arduino en Tinkercad"/>
 
 ## Código implementado
 
@@ -68,10 +68,13 @@ La función **blinkLed(freq)** se encarga de encender y apagar el led acorde a u
     }    
 ```      
 A continuación, se muestra el resultado final mediante un gif animado: 
+Salida del monitor serie |
+--------------|
+<img src="/images/blink-led-serial-demo.gif" alt="Salida del monitor serie"></img> | 
 
-| ![](/images/blink-led-serial-demo.gif "Salida del monitor serie") |
-| ![](https://media.giphy.com/media/xx9DkkDZIqvtpPQFNa/giphy.gif "Prueba del código en vivo") |
-
+Prueba del código en vivo |
+--------------|
+<img src="https://media.giphy.com/media/xx9DkkDZIqvtpPQFNa/giphy.gif" alt="Prueba del código en vivo"></img> |
 
 ## Descarga y prueba
 Para poder probar correctamente el código, descargar los ficheros (el .zip del repositorio) y en la carpeta llamada BlinkLed se encuentran los archivos de la aplicación listos para probar y ejecutar. El archivo "README.md" y aquellos fuera de la carpeta del proyecto (BlinkLed), son opcionales, si se descargan no deberían influir en el funcionamiento del código ya que, son usados para darle formato a la presentación y explicación del repositorio en la plataforma GitHub.
