@@ -1,7 +1,7 @@
 # BlinkLed
 Blinking led: As the sinusoidal function reaches its maximum and minimum points the flashing frequency of the led, the one incorporated on the Arduino ONE, varies. Done by:
-- José María Amusquívar Poppe. (<a href="https://prashant-jt.github.io/My-Processing-Book/">Link</a>) <br>
-- Prashant Jeswani Tejwani. (<a href="https://prashant-jt.github.io/My-Processing-Book/">Link</a>) <br>
+- José María Amusquívar Poppe. (<a href="https://github.com/JoseMAP-99">Link</a>) <br>
+- Prashant Jeswani Tejwani. (<a href="https://github.com/Prashant-JT">Link</a>) <br>
 - Fabián Alfonso Beirutti Pérez.
 
 ## Introducción
@@ -32,14 +32,14 @@ A continuación se describe el trabajo realizado. Se crean e inicializan las var
     float value = 0;
     float senFreq = 0;
 ```
-<br>En la función **setup()** se habilita el monitor serie y se establece el led incorporado en el Arduino como salida.
+En la función **setup()** se habilita el monitor serie y se establece el led incorporado en el Arduino como salida.
 ```C
     void setup() {  
       Serial.begin(9600);
       pinMode(LED_BUILTIN, OUTPUT);
     }
 ```
-<br>En la función **loop()** se calcula el seno de la variable *value* y se actualiza la variable. A continuación, se comprueba que esta variable esté en el rango -PI/2 y PI/2. Se cambia la frecuencia del parpadeo según el valor del seno calculado llamando la función **blinkLed()**.
+En la función **loop()** se calcula el seno de la variable *value* y se actualiza la variable. A continuación, se comprueba que esta variable esté en el rango -PI/2 y PI/2. Se cambia la frecuencia del parpadeo según el valor del seno calculado llamando la función **blinkLed()**.
 ```C
     void loop() {
       senFreq = sin(value);
@@ -58,7 +58,7 @@ A continuación se describe el trabajo realizado. Se crean e inicializan las var
       }
     }
 ```    
-<br>La función **blinkLed(freq)** se encarga de encender y apagar el led acorde a una frecuencia que es pasada como parámetro. 
+La función **blinkLed(freq)** se encarga de encender y apagar el led acorde a una frecuencia que es pasada como parámetro. 
 ```C      
     void blinkLed (int freq) {
       digitalWrite(LED_BUILTIN, HIGH);  
@@ -73,14 +73,12 @@ A continuación se describe el trabajo realizado. Se crean e inicializan las var
 | ![](https://media.giphy.com/media/xx9DkkDZIqvtpPQFNa/giphy.gif "Prueba del código en vivo") |
 
 
-## Descargar código en Arduino
-Para descargar el código en Arduino, acceda a: <a href="https://downgit.github.io/#/home?url=https://github.com/Prashant-JT/My-Processing-Book/tree/master/projects/blink_led">Descargar código en Arduino</a> o acceda a la carpeta del repositorio del proyecto en: <a href="https://github.com/Prashant-JT/My-Processing-Book/tree/master/projects/blink_led">Repositorio del proyecto</a>
+## Descarga y prueba
+Para poder probar correctamente el código, descargar los ficheros (el .zip del repositorio) y en la carpeta llamada BlinkLed se encuentran los archivos de la aplicación listos para probar y ejecutar. El archivo "README.md" y aquellos fuera de la carpeta del proyecto (BlinkLed), son opcionales, si se descargan no deberían influir en el funcionamiento del código ya que, son usados para darle formato a la presentación y explicación del repositorio en la plataforma GitHub.
 
-<a href="https://josemap-99.github.io/2021/05/08/blink_led.html"><b>Repositorio del proyecto de José María Amusquívar Poppe</b></a>
-
-<a href="https://github.com/Fabbeiru/BlinkLed"><b>Repositorio del proyecto de Fabián Alfonso Beirutti Pérez</b></a>
-
----
+Por otra parte, si se desea comprobar y/o visitar los repositorios de los compañeros de este proyecto puede acceder a ellos a continuación:
+- <a href="https://josemap-99.github.io/2021/05/08/blink_led.html">Repositorio del proyecto de José María Amusquívar Poppe.</a>
+- <a href="https://prashant-jt.github.io/My-Processing-Book/2021/05/04/blink-led.html">Repositorio del proyecto de Prashant Jeswani Tejwani.</a>
 
 ## Referencias
 Para la realización de este proyecto, se han consultado y/o utilizado los siguientes recursos:
