@@ -16,7 +16,7 @@ Se produce una señal senoidal que define la envolvente, de manera que cuando di
 
 El diseño y configuración ha sido el que se puede observar en la siguiente figura. Se adjunta el <a href=" https://www.tinkercad.com/things/cknacAsoMJE">enlace de la configuración en Tinkercad</a> para visualizar la simulación y modificar el código si se desea.
 
-![](/My-Processing-Book/images/blink_led/blink-led-tinkercad-demo.gif "Diseño, configuración y simulación del Arduino en Tinkercad")
+![](/images/blink-led-tinkercad-demo.gif "Diseño, configuración y simulación del Arduino en Tinkercad")
 
 ## Código implementado
 
@@ -67,9 +67,9 @@ La función **blinkLed(freq)** se encarga de encender y apagar el led acorde a u
       delay(freq);  
     }    
 ```      
-<br>A continuación, se muestra el resultado final mediante un gif animado: 
+A continuación, se muestra el resultado final mediante un gif animado: 
 
-| ![](/My-Processing-Book/images/blink_led/blink-led-serial-demo.gif "Salida del monitor serie") |
+| ![](/images/blink-led-serial-demo.gif "Salida del monitor serie") |
 | ![](https://media.giphy.com/media/xx9DkkDZIqvtpPQFNa/giphy.gif "Prueba del código en vivo") |
 
 
