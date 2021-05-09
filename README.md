@@ -71,7 +71,7 @@ A continuación, se muestra el resultado final mediante un gif animado de la sal
 <p align="center">
 <img src="/images/blink-led-serial-demo.gif" alt="Salida del monitor serie"></img>
 <img src="/images/pruebaDelCodigoEnVivoGif.gif" alt="Prueba del código en vivo"></img>
-https://media.giphy.com/media/xx9DkkDZIqvtpPQFNa/giphy.gif
+<img src="https://media.giphy.com/media/xx9DkkDZIqvtpPQFNa/giphy.gif">
 </p>
 
 ## Descarga y prueba
