@@ -70,12 +70,12 @@ La función **blinkLed(freq)** se encarga de encender y apagar el led acorde a u
 A continuación, se muestra el resultado final mediante un gif animado:
 <p align="center">
 | Salida del monitor serie |
---------------|
+|--------------|
 <img src="/images/blink-led-serial-demo.gif" alt="Salida del monitor serie"></img> | 
 
 | Prueba del código en vivo |
---------------|
-<img src="https://media.giphy.com/media/xx9DkkDZIqvtpPQFNa/giphy.gif" alt="Prueba del código en vivo"></img> |
+|--------------|
+<img src="/images/pruebaDelCodigoEnVivoGif.gif" alt="Prueba del código en vivo"></img> |
 </p>
 
 ## Descarga y prueba
