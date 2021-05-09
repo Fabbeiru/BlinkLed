@@ -67,15 +67,11 @@ La función **blinkLed(freq)** se encarga de encender y apagar el led acorde a u
       delay(freq);  
     }    
 ```      
-A continuación, se muestra el resultado final mediante un gif animado:
+A continuación, se muestra el resultado final mediante un gif animado de la salida del monitor serie y la ejecución del código en el arduino:
 <p align="center">
-| Salida del monitor serie |
-|--------------|
-<img src="/images/blink-led-serial-demo.gif" alt="Salida del monitor serie"></img> | 
-
-| Prueba del código en vivo |
-|--------------|
-<img src="/images/pruebaDelCodigoEnVivoGif.gif" alt="Prueba del código en vivo"></img> |
+<img src="/images/blink-led-serial-demo.gif" alt="Salida del monitor serie"></img>
+<img src="/images/pruebaDelCodigoEnVivoGif.gif" alt="Prueba del código en vivo"></img>
+https://media.giphy.com/media/xx9DkkDZIqvtpPQFNa/giphy.gif
 </p>
 
 ## Descarga y prueba
